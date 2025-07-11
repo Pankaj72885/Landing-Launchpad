@@ -137,8 +137,8 @@ body {
 }
 
 .activity {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
+  justify-content: space-around;
 }
 
 .activity-text {
@@ -173,8 +173,7 @@ body {
 }
 
 .feedback {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 24px;
@@ -253,6 +252,7 @@ body {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  gap: 40px;
 }
 
 .left {
