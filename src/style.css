@@ -30,6 +30,15 @@ body {
   font-size: 16px;
   font-weight: 700;
   color: white;
+  cursor: pointer;
+  transition: all 0.5s ease;
+}
+
+.btn-primary:hover {
+  background-color: #150df3;
+  border: 1px solid #0800fc;
+  color: rgb(213, 216, 240);
+  scale: 1.05;
 }
 
 /* Custom styles start below */
